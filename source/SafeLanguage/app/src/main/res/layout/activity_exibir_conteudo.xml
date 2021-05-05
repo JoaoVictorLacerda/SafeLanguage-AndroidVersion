@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Tela2.exibirConteudoActivity">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        />
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Resultado"
+        android:textSize="100px"
+
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        />
+    <EditText
+        android:id="@+id/textoCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="500px"
+        android:inputType="textMultiLine"
+        android:textSize="50px"
+        android:layout_marginHorizontal="20dp"
+        android:scrollbars="vertical" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+
+    <Button
+        android:id="@+id/copiarcodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copiar"
+        android:layout_marginHorizontal="40dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_marginHorizontal="40dp"/>
+
+</LinearLayout>
